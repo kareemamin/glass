@@ -58,6 +58,7 @@ body{
   font:100 30px "Roboto", Helvetica, Helvetica Neue, Arial;
   background-color: rgb(230, 230, 230);
   color: rgb(51, 51, 51);
+  padding-bottom:400px;
 
 }
 
@@ -129,5 +130,10 @@ body{
   background-size:cover;
 }
 
-
+#final_message{
+  margin:0 auto;
+  width:800px;
+  text-align:center;
+  font-size:24px;
+}
 
