@@ -125,6 +125,7 @@ body{
 
 .section_image{
   background:url('http://farm9.staticflickr.com/8456/8024038003_d275fd3c75_h.jpg') top left no-repeat;
+  background-size:cover;
   width:100%;
   height:800px;
 }
@@ -141,6 +142,10 @@ body{
 }
 
 #final_message{
+  
+}
+
+#final_message_content{
   margin:0 auto;
   width:800px;
   text-align:center;
