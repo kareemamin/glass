@@ -160,14 +160,41 @@ body{
 }
 
 .section_interface{
-  background:image-url('interfaces/everyday_interface.png') top left no-repeat;
+  background:white;
   position:absolute;
-  top:20px;
+  top:115px;
   left:50%;
-  margin-left:-300px;
-  width:625px;
-  height:350px;
-  background-size:cover;
+  width:42%;
+  height:60%;
+  margin-left:-306px;
+  //opacity: .85; /* layer alpha */
+  //background-color: #e4dede; 
+  background: image-url('marketplace/bg.png') top left no-repeat;
+
+  div{
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+  }
+}
+
+.marketplace_0{
+  background: image-url('marketplace/001.png') top left no-repeat;
+}
+
+.marketplace_1{
+  background: image-url('marketplace/002.png') top left no-repeat;
+
+}
+
+.marketplace_2{
+  background: image-url('marketplace/003.png') top left no-repeat;
+
+}
+
+.marketplace_3{
+  background: image-url('marketplace/004.png') top left no-repeat;
+
 }
 
 #final_message{

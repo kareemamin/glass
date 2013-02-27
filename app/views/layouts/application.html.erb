@@ -11,9 +11,20 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   
   <script>
+      var cur_img = 0;
+      var img_num = 4;
+        
       $(document).ready(function(){
         
-      
+         setInterval(function() {
+            var next_img = (cur_img === img_num - 1) ? 0 : cur_img + 1;
+            console.log(cur_img);
+            $('#marketplace_interface').fadeOut(1000, function(){
+               $(this).removeClass().addClass('marketplace_' + cur_img.toString()).fadeIn('1000'); 
+            });
+            
+            cur_img = next_img;
+         }, 5000);
       });
   </script>
   
