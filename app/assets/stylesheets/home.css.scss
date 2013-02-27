@@ -194,5 +194,14 @@ body{
 #final_contributors{
   font-size:16px;
   margin-top:20px;
+  
+  a{
+    color:white;
+    text-decoration:none;
+    font-weight:200;
+    &:hover{
+      color:#c0d4e6;
+    }
+  }
 }
 
