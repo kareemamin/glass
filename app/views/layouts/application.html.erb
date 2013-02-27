@@ -19,12 +19,12 @@
          setInterval(function() {
             var next_img = (cur_img === img_num - 1) ? 0 : cur_img + 1;
             console.log(cur_img);
-            $('#marketplace_interface').fadeOut(1000, function(){
-               $(this).removeClass().addClass('marketplace_' + cur_img.toString()).fadeIn('1000'); 
+            $('#marketplace_interface').fadeOut(2000, function(){
+               $(this).removeClass().addClass('marketplace_' + cur_img.toString()).fadeIn('2000'); 
             });
             
             cur_img = next_img;
-         }, 5000);
+         }, 7000);
       });
   </script>
   
