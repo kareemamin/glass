@@ -59,7 +59,7 @@ body{
   background-color: rgb(230, 230, 230);
   color: rgb(51, 51, 51);
   padding-bottom:400px;
-
+  max-width:1600px;
 }
 
 #initial_overlay{
@@ -127,8 +127,17 @@ body{
   background:url('http://farm9.staticflickr.com/8456/8024038003_d275fd3c75_h.jpg') top left no-repeat;
   width:100%;
   height:800px;
+}
+
+.section_interface{
+  background:image-url('interfaces/everyday_interface.png') top left no-repeat;
+  position:absolute;
+  top:20px;
+  left:50%;
+  margin-left:-300px;
+  width:625px;
+  height:350px;
   background-size:cover;
-  
 }
 
 #final_message{
