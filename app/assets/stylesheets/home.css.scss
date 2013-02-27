@@ -114,6 +114,12 @@ body{
   text-align: center;
 }
 
+#intro_section{
+  box-shadow:none;
+  background: #E2EBF2;
+  margin-bottom:0px;
+}
+
 #intro{
   width:500px;
   margin:0 auto;
@@ -121,6 +127,15 @@ body{
   padding-bottom:40px;
   font-size:20px;
   line-height:1.5;
+  
+  
+  h3{
+    text-align:center;
+    font-weight:300;
+    font-size:24px;
+    color:#375D81;
+    margin-bottom:20px;  
+  }
 }
 
 .section_image{
